@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@600&family=Montserrat:wght@500&family=Mukta:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+  }
+  
+  .container {
+    margin-top: 30px;
+    padding: 0 20px;
+  }
+  
+  /* ----------------------------------- */
+  /* ------------- NAVBAR -------------- */
+  /* ----------------------------------- */
+  
+  .navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content :space-between;  
+  }
+
+ img{
+  margin-left: 20px;
+ }
+  
+  .list {
+    list-style: none;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    gap: 50px;
+    margin-left: 20px;
+  }
+
+  .list-item1{
+    color: #000000;
+  cursor: pointer;
+  font-weight: 800;
+  font-size: 25px;
+  margin-left: 65px; 
+  }
+  
+  .list-item {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    cursor: pointer;
+    color: grey;
+  
+  }
+
+  .nav-button{
+    font-style: normal;
+      font-weight: 200;
+      font-size: 20px;
+      background-color: rgb(100, 81, 229);
+      text-align: end;
+      border: 1px solid ;
+      padding: 15px 56.72px 15px 56.32px;
+      cursor: pointer;
+      border-radius: 10px;
+      color: #ffffff;
+  }
+  
+  .banner-container{
+    display: flex;
+    justify-content: center;
+  font-style: normal;
+    font-weight: 400;
+    font-size: 29px; 
+    text-align: end;
+    cursor: pointer;
+  }
+  .heading-text {
+    font-family: "monsterrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 92px;
+    color: #000000;
+   text-align: start; 
+   margin-left: 30px;
+   margin-top: 90px;
+  }
+
+  .heading-text span{
+    color: rgb(100, 81, 229);
+  }
+  
+  .description {
+    font-family: "sans serif";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #515151;
+    text-align: start;
+    font-family:'monsterrat';  
+    margin-left: 30px;
+  }
+
+.nav-button1{
+font-weight: 200;
+ font-size: 20px;
+ background-color: rgb(100, 81, 229);  
+ border: 1px solid ;
+ padding: 25px 56.72px 25px 56.32px;
+ cursor: pointer;
+border-radius: 10px;
+color: #ffffff;
+margin-top:40px;
+margin-left: 20px;
+display: flex;
+justify-content: flex-start;
+
+}
